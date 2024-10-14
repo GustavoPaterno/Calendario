@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 90%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.mes span{
+    display: inline-block;
+    width: 14.2%;
+    display: flex;
+    justify-content: center;
+    color: #F86078;
+}
+
+.dia{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.dia span{
+    display: inline-block;
+    width: 14.2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
